@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(./pexels-photo-15191625.jpeg);
+    background-size: cover;
+    color: black;
+
+  
+}
+header{
+    background-color: rgb(112, 203, 221);
+    display: flex;
+    justify-content: center;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 244, 244);
+
+}
+.menu_principal{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.menu_principal li a:hover{
+    color: rgb(58, 0, 113);
+ 
+}
+.primera_parte{
+    display: flex;
+    background-color: rgba(112, 203, 221, 0.556);
+}
+.articulo_primero{
+
+    font-size: 25px;
+    text-align: justify;
+    padding:  0 18px;
+}
+.primera_img{
+    float: left;
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+.titulo_primer_articulo{
+    font-size: 32px;
+    padding: 15px 0;
+    color: rgb(0, 0, 0);
+}
+.segunda_parte{
+    background-color: rgba(112, 203, 221, 0.556);
+}
+.titulo_segunda{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.articulo_segundo{
+    padding:  0 18px;
+    font-size: 25px;
+    text-align: justify;
+}
+.segunda_img{
+    float: right;
+    width: 290px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+.fines{
+    padding: 15px 0;
+}
+.lista_primera{
+    margin-left: 45px;
+}
+.actividades{
+    padding: 15px 0;
+}
+.lista_segunda{
+    margin-left: 45px;
+}
+.principios{
+    padding: 15px 0;
+}
+.lista_tercera{
+    margin-left: 45px;
+}
+.tercera_parte{
+    background-color: rgba(112, 203, 221, 0.556);
+}
+.titulo_tercera{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    font-size: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  0 18px;
+    font-size: 25px;
+}
+.nombre{
+    padding-top: 15px;
+}
+#nombre{
+    width: 550px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.email{
+    padding-top: 15px;
+}
+#email{
+    width: 550px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.informacion{
+    padding-bottom: 5px;
+}
+.terminos{
+    padding-bottom: 5px;
+}
+#enviar{
+    margin: 15px 0;
+    height: 30px;
+    width: 75px;
+}
